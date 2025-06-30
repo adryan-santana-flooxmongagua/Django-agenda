@@ -1,0 +1,65 @@
+# Ambiente virtual
+venv/
+.env/
+.venv/
+env/
+
+# Arquivos Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos do Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+db.sqlite3-journal
+
+# Arquivos de migração gerados automaticamente (opcional)
+# Se quiser manter migrações, remova a linha abaixo
+**/migrations/__pycache__/
+**/migrations/*.pyc
+
+# Configurações sensíveis
+*.env
+.env.*
+secret*.json
+
+# Cache
+.cache/
+*.cache
+*.mo
+*.tmp
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Testes e cobertura
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Arquivos de build/distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# Static/media gerados (opcional, ajuste conforme sua estrutura)
+staticfiles/
+media/
